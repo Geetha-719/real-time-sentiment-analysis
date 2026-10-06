@@ -1,0 +1,31 @@
+{
+  "model_name": "Logistic Regression",
+  "artifact": "sentiment_model.joblib",
+  "labels": [
+    "Negative",
+    "Neutral",
+    "Positive",
+    "Irrelevant"
+  ],
+  "label_to_id": {
+    "Negative": 0,
+    "Neutral": 1,
+    "Positive": 2,
+    "Irrelevant": 3
+  },
+  "id_to_label": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive",
+    "3": "Irrelevant"
+  },
+  "ngram_range": [
+    1,
+    2
+  ],
+  "stemming": false,
+  "stopword_handling": true,
+  "seed": 42,
+  "n_features": 126180,
+  "trained_at": "2026-10-05T20:03:14"
+}
